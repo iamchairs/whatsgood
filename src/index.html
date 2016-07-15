@@ -34,7 +34,11 @@
 </head>
 <body>
 
-  <app-root>Loading...</app-root>
+  <app-root>
+    <div class="app-loading">
+      <ion-icon name="start"></ion-icon>
+    </div>
+  </app-root>
 
   {{#each scripts.polyfills}}
   <script src="{{.}}"></script>

@@ -1,0 +1,7 @@
+.app-loading {
+  position: fixed;
+  left: calc(50% - 64px);
+  top: calc(50% - 64px);
+  width: 128px;
+  height: 128px;
+}
